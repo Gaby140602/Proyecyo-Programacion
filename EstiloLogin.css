@@ -1,0 +1,203 @@
+*{
+	margin:0;
+	padding:0;
+}
+.fondo {
+    /*Asigna el color de fono al body de la página*/
+    background-color: #31436B;
+    font-family: sans-serif;
+    
+}
+
+.header-container {
+  background-color: #03276A; /* Color de fondo del contenedor del encabezado */
+  margin:0;
+}
+
+.banner {
+  margin-bottom: 0;
+  height: 195px; /*Ajusta la altura del contenedor del header*/
+  overflow: hidden;
+  
+}
+
+.banner img {
+  max-width: 81.8%; /* Ancho máximo de la imagen */
+  display: block; /* Mostrar la imagen como un bloque */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+.grid-container{
+	display:grid;
+	grid-template-columns: 18fr 3fr; /*Dos columnas: una para el banner y otra para la imagen de busqueda y redes sociales*/
+}
+
+.imagen-principal {
+	grid-column:1; /*Colocar el banner en la columna 1*/
+	width:100%;
+	margin-left:91.5px; 
+}
+
+.boton-imagen {
+	grid-column:2; /*Colocar los botones en la segunda columna*/
+	display:flex;
+	margin-top:145px;
+	margin-right:30px;
+	
+}
+
+.boton-imagen img {
+	margin-left: 5px;
+	
+}
+
+.columna-izquierda, .columna-centro, .columna-derecha {
+  height: 100vh;
+}
+
+.columna-izquierda{
+	background-color:#14213D;
+	float:left;
+	width:15%;
+}
+
+.columna-centro{
+	background-color:#31436B;
+	float:left;
+	width:70%;
+}
+
+.columna-derecha{
+	background-color:#14213D;
+	float:left;
+	width:15%;
+}
+
+.Título{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.Parrafo{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	text-align:justify;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    max-width: 900px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.card {
+    width: 100%;
+    margin-top:20px;
+    margin-left:10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    
+    text-align: justify;
+}
+
+.form {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+	margin-top:20px;
+    margin-left: 25px;
+}
+
+input[type="submit"] {
+  background-color: #264054; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor estilo de puntero */
+  margin-left: 298px;
+  margin-bottom: 30px;
+  margin-top:50px;
+  font-size: 18px;
+}
+
+input[type="submit"]:hover {
+  background-color: #A9C7DD; /* Color de fondo al pasar el cursor */
+}
+
+input[type="submit"]:focus {
+  outline: none; /* Quita el contorno cuando se enfoca */
+}
+
+footer {
+    /* Estilos generales del footer */
+    background-color: #46769A;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 97%;
+    padding-top:20px;
+}
+
+.footer-copyright {
+    /* Estilos para el texto de derechos de autor */
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.footer-links a {
+  display: inline-block;
+  margin-right: 70px; /* Ajusta el espaciado entre los enlaces */
+  margin-left:70px;
+  margin-top:20px;
+  margin-bottom:20px;
+  text-decoration: none; /* Elimina la decoración de subrayado */
+  color:black;
+  font-weight:bold;
+}
+
+/*Estilos correspondientes a la página JSP*/
+body {
+    background-color: #A9C7D9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mensaje {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.boton {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #264054;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-right:40%;
+  margin-top:200px;
+  font-size:30px;
+}
+
+.boton:hover {
+  background-color: #3A6486;
+}
+
