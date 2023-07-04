@@ -72,7 +72,12 @@
 	float:left;
 	width:15%;
 }
-
+.Logo {
+	position: absolute;
+	top:255px;
+	left:42%;
+	right:42%;
+}
 .Título{
 	font-size: 30px;
 	text-align: center;
@@ -90,11 +95,11 @@
 }
 
 .container {
-    width: 80%;
+    width: 50%;
     display: flex;
     max-width: 900px;
-    margin-left: 100px;
-    margin-top: 15px;
+    margin-left: 225px;
+    margin-top: 200px;
 }
 
 .card {
@@ -112,7 +117,7 @@
 
 .form {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	margin-top:20px;
     margin-left: 25px;
 }
@@ -124,10 +129,10 @@ input[type="submit"] {
   border: none; /* Sin borde */
   border-radius: 4px; /* Bordes redondeados */
   cursor: pointer; /* Cursor estilo de puntero */
-  margin-left: 298px;
+  margin-left: 145px;
   margin-bottom: 30px;
   margin-top:50px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 input[type="submit"]:hover {
@@ -140,7 +145,7 @@ input[type="submit"]:focus {
 
 footer {
     /* Estilos generales del footer */
-    background-color: #46769A;
+    background-color: #FCA311;
     padding: 20px;
     position: static;
     bottom: 0;
